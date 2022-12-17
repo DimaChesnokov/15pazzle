@@ -9,6 +9,7 @@ namespace ConsoleApp1
             Profession worker = Profession.Плотник;
             worker = worker | Profession.столяр | (Profession.врач & Profession.учитель);
             Console.WriteLine(worker.ToString());
+            //Тест гитхаб
         }
 
 
